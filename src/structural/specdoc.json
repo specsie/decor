@@ -1,0 +1,19 @@
+{
+    "inherits": {
+        "spec": "https://github.com/specsy/foundation.git"
+    }, 
+    "json-schema": [
+        "path_to_foundation_spec/src/schema.json"
+    ], 
+    "includes": [
+        "/src/structural/spec.json", 
+        "/src/decorative/spec.json"
+    ], 
+    "spec": "https://github.com/specsy/structure.git", 
+    "constraints": [
+        {
+        }
+    ], 
+    "description": [
+    ]
+}

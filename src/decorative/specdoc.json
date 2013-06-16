@@ -1,0 +1,15 @@
+{
+    "json-schema": [
+    ], 
+    "constraints": [
+        {
+            "constraint": "Every date must use the format DD/MM/YYYY."
+        }
+    ], 
+    "includes": [
+    ], 
+    "description": [
+        "This spec is a direct child of the structure spec.", 
+        "This specdoc contains a decorative law about date formats for the purpose of test only."
+    ]
+}
