@@ -1,0 +1,22 @@
+[
+    {
+        "constraint": "A qualifier MAY constrain a constraint in this specdoc.", 
+        "qualifiers": [
+            {
+                "constraint": "A qualifier MAY NOT qualify any constraint except the one within the qualifier's immediate scope."
+            }
+        ]
+    }, 
+    {
+        "constraint": "The build of every spec that inherits this spec MUST aggregate all of this spec's structural property:values and all this spec's inherited structural property:values recursively."
+    }, 
+    {
+        "constraint": "A doc which conforms to this spec MAY NOT violate any constraint in this spec's build."
+    }, 
+    {
+        "constraint": "Every included specdoc is itself a doc which MUST conform to the specs in all spec properties referenced in all this spec's specdocs and all inherited spec values recursively."
+    },
+    {
+        "constraint": "Every date must use the format DD/MM/YYYY."
+    }
+]
